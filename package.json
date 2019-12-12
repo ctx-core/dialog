@@ -31,7 +31,7 @@
 	"dependencies": {
 		"@ctx-core/array": "^15.4.28",
 		"@ctx-core/store": "^12.1.10",
-		"svelte": "^3.16.0"
+		"svelte": "^3.16.4"
 	},
 	"devDependencies": {
 		"typescript": "^3.7.3"
