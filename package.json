@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dialog",
-	"version": "9.2.35",
+	"version": "9.2.36",
 	"description": "ctx-core dialog",
 	"main": "store.js",
 	"module": "store.js",
@@ -30,7 +30,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/array": "^15.5.1",
-		"@ctx-core/store": "^12.3.4",
+		"@ctx-core/store": "^13.0.0",
 		"svelte": "^3.16.7"
 	},
 	"devDependencies": {
