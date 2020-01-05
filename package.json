@@ -30,6 +30,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/array": "^15.5.3",
+		"@ctx-core/object": "^6.5.0",
 		"@ctx-core/store": "^13.0.2",
 		"svelte": "^3.16.7"
 	},
