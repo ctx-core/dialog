@@ -45,3 +45,4 @@ export const {
 } = __stack__dialog
 export const b__top__stack__dialog = _b('__top__stack__dialog', ctx=>
 	derived(b__stack__dialog(ctx), _last))
+export const __top__stack__dialog = b__top__stack__dialog()
