@@ -2,6 +2,7 @@
 	"name": "@ctx-core/dialog",
 	"version": "9.3.28",
 	"description": "ctx-core dialog",
+	"type": "module",
 	"main": "store.js",
 	"module": "store.js",
 	"types": "store.ts",
