@@ -36,13 +36,5 @@ export const b__stack__dialog = _b<Writable__stack__dialog>('__stack__dialog', c
 		each(stack__dialog, dialog=>dialog.close(event))
 	}
 })
-export const __stack__dialog = b__stack__dialog()
-export const {
-	add__component__stack__dialog,
-	remove__component__stack__dialog,
-	close__top__stack__dialog,
-	close__stack__dialog,
-} = __stack__dialog
 export const b__top__stack__dialog = _b('__top__stack__dialog', ctx=>
 	derived(b__stack__dialog(ctx), _last))
-export const __top__stack__dialog = b__top__stack__dialog()
