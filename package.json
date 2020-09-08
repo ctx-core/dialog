@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dialog",
-	"version": "9.3.81",
+	"version": "9.3.82",
 	"description": "ctx-core dialog",
 	"main": "./index.js",
 	"module": "./index.js",
