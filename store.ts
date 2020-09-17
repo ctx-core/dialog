@@ -1,16 +1,8 @@
 import { writable, derived, get, Writable } from 'svelte/store'
-// @ts-ignore
-import { subscribe__debug } from '@ctx-core/store'
 import { each, _last, remove } from '@ctx-core/array'
 import { assign, _b } from '@ctx-core/object'
-export interface Writable__stack__dialog extends Writable<any[]> {
-	add__component__stack__dialog:(component:any)=>void
-	remove__component__stack__dialog:(component:any)=>void
-	close__top__stack__dialog:(event:Event)=>void
-	close__stack__dialog:(event?:Event)=>void
-}
-export const b__stack__dialog = _b<Writable__stack__dialog>('__stack__dialog', ctx=>{
-	const __stack__dialog = writable([])
+export const b__stack__dialog = _b<type__stack__dialog>('__stack__dialog', ctx=>{
+	const __stack__dialog = writable([]) as type__stack__dialog
 	return assign(__stack__dialog, {
 		add__component__stack__dialog,
 		remove__component__stack__dialog,
@@ -38,3 +30,9 @@ export const b__stack__dialog = _b<Writable__stack__dialog>('__stack__dialog', c
 })
 export const b__top__stack__dialog = _b('__top__stack__dialog', ctx=>
 	derived(b__stack__dialog(ctx), _last))
+export interface type__stack__dialog extends Writable<unknown[]> {
+	add__component__stack__dialog:(component:unknown)=>void
+	remove__component__stack__dialog:(component:unknown)=>void
+	close__top__stack__dialog:(event:Event)=>void
+	close__stack__dialog:(event?:Event)=>void
+}

@@ -1,9 +1,9 @@
 import { Writable } from 'svelte/store';
-export interface Writable__stack__dialog extends Writable<any[]> {
-    add__component__stack__dialog: (component: any) => void;
-    remove__component__stack__dialog: (component: any) => void;
+export declare const b__stack__dialog: (ctx?: unknown, opts?: import("@ctx-core/object")._be_opts_type) => type__stack__dialog;
+export declare const b__top__stack__dialog: (ctx?: unknown, opts?: import("@ctx-core/object")._be_opts_type) => import("svelte/store").Readable<unknown>;
+export interface type__stack__dialog extends Writable<unknown[]> {
+    add__component__stack__dialog: (component: unknown) => void;
+    remove__component__stack__dialog: (component: unknown) => void;
     close__top__stack__dialog: (event: Event) => void;
     close__stack__dialog: (event?: Event) => void;
 }
-export declare const b__stack__dialog: (ctx?: any, opts?: any) => Writable__stack__dialog;
-export declare const b__top__stack__dialog: (ctx?: any, opts?: any) => import("svelte/store").Readable<any>;
