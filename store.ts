@@ -2,7 +2,7 @@ import { writable, derived, get, Writable } from 'svelte/store'
 import { each, _last, remove } from '@ctx-core/array'
 import { assign, _b } from '@ctx-core/object'
 export const b__stack__dialog = _b<type__stack__dialog>('__stack__dialog', ctx=>{
-	const __stack__dialog = writable([]) as type__stack__dialog
+	const __stack__dialog = writable([] as unknown[]) as type__stack__dialog
 	return assign(__stack__dialog, {
 		add__component__stack__dialog,
 		remove__component__stack__dialog,
