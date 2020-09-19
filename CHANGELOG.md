@@ -1,5 +1,12 @@
 # @ctx-core/dialog
 
+## 10.0.1
+
+### Patch Changes
+
+- @ctx-core/array@19.0.1
+- @ctx-core/store@17.0.1
+
 ## 10.0.0
 
 ### Major Changes
