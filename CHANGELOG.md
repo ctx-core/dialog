@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 10.0.9
+
+### Patch Changes
+
+- dependency updates
+
 ## 10.0.8
 
 ### Patch Changes
