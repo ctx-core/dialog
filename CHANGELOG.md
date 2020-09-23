@@ -1,5 +1,12 @@
 # @ctx-core/dialog
 
+## 10.0.17
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/store@18.0.1
+
 ## 10.0.16
 
 ### Patch Changes
