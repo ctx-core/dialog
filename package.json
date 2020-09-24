@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dialog",
-	"version": "10.0.19",
+	"version": "10.0.20",
 	"description": "ctx-core dialog",
 	"keywords": [
 		"ctx-core",
@@ -30,7 +30,7 @@
 		"@ctx-core/array": "workspace:^19.0.11",
 		"@ctx-core/function": "workspace:^16.1.0",
 		"@ctx-core/object": "workspace:^12.0.6",
-		"@ctx-core/store": "workspace:^18.1.0",
+		"@ctx-core/store": "workspace:^18.1.1",
 		"svelte": "3.26.0"
 	},
 	"devDependencies": {
