@@ -1,5 +1,14 @@
 # @ctx-core/dialog
 
+## 10.0.32
+
+### Patch Changes
+
+- get: using infered type
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/store@19.0.0
+
 ## 10.0.31
 
 ### Patch Changes
