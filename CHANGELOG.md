@@ -1,5 +1,16 @@
 # @ctx-core/dialog
 
+## 10.0.50
+
+### Patch Changes
+
+- typescript: ^4.0.3 -> ^4.0.5
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.0.21
+  - @ctx-core/function@16.1.2
+  - @ctx-core/object@13.0.1
+  - @ctx-core/store@23.0.9
+
 ## 10.0.49
 
 ### Patch Changes
