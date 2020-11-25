@@ -31,8 +31,8 @@ export const b__stack__dialog = _b<type__stack__dialog>('__stack__dialog', ctx=>
 })
 export const b__top__stack__dialog = _b<Readable<maybe_undefined<dialog_type>>>('__top__stack__dialog', ctx=>
 	derived(b__stack__dialog(ctx), _last))
-export type dialog_type = {
-	close(event: Event): void
+export interface dialog_type {
+	close(event:Event):void
 }
 export type $type__stack__dialog = dialog_type[]
 export interface type__stack__dialog extends Writable<$type__stack__dialog> {
