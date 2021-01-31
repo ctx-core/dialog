@@ -1,5 +1,19 @@
 # @ctx-core/dialog
 
+## 11.0.0
+
+### Major Changes
+
+- src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.0.0
+  - @ctx-core/function@17.0.0
+  - @ctx-core/object@17.0.0
+  - @ctx-core/store@24.0.0
+
 ## 10.2.37
 
 ### Patch Changes
