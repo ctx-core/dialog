@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 11.1.0
+
+### Minor Changes
+
+- ui directory
+
 ## 11.0.1
 
 ### Patch Changes
