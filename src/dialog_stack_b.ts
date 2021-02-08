@@ -1,8 +1,8 @@
-import { _b, assign } from '@ctx-core/object'
+import { _b, assign, B } from '@ctx-core/object'
 import { get, Writable, writable } from '@ctx-core/store'
 import { each, remove } from '@ctx-core/array'
 import type { dialog_type } from './dialog_stack_top_b'
-export const dialog_stack_b = _b('dialog_stack', ()=>{
+export const dialog_stack_b:dialog_stack_b_type = _b('dialog_stack', ()=>{
 	const dialog_stack = writable([] as $dialog_stack_type) as dialog_stack_type
 	return assign(dialog_stack, {
 		add_dialog_stack_component,
@@ -30,3 +30,4 @@ export interface dialog_stack_type extends Writable<$dialog_stack_type> {
 	remove_dialog_stack_component:(component:unknown)=>void
 	close_dialog_stack:(event?:Event)=>void
 }
+export interface dialog_stack_b_type extends B<dialog_stack_type> {}

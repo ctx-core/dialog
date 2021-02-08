@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 11.2.0
+
+### Minor Changes
+
+- \_b types
+
 ## 11.1.8
 
 ### Patch Changes
