@@ -1,5 +1,15 @@
 # @ctx-core/dialog
 
+## 11.2.63
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.2.22
+  - @ctx-core/object@17.5.19
+  - @ctx-core/store@24.7.11
+
 ## 11.2.62
 
 ### Patch Changes
