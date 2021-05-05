@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dialog",
-	"version": "11.2.66",
+	"version": "11.2.67",
 	"description": "ctx-core dialog",
 	"keywords": [
 		"ctx-core",
@@ -27,10 +27,10 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^20.2.24",
-		"@ctx-core/function": "workspace:^17.7.1",
-		"@ctx-core/object": "workspace:^17.5.21",
-		"@ctx-core/store": "workspace:^24.7.14",
+		"@ctx-core/array": "workspace:^20.2.25",
+		"@ctx-core/function": "workspace:^17.8.0",
+		"@ctx-core/object": "workspace:^17.5.22",
+		"@ctx-core/store": "workspace:^24.7.15",
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
