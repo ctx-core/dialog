@@ -6,9 +6,9 @@ export const dialog_stack_top_b:dialog_stack_top_b_type = _b('dialog_stack_top',
 	derived(
 		dialog_stack_b(ctx), _last) as dialog_stack_top_type
 )
-export interface dialog_type {
-	close(event:Event):void
+export interface dialog_I {
+	close(event?:Event):void
 }
-export type $dialog_stack_top_type = null|dialog_type
+export type $dialog_stack_top_type = null|dialog_I
 export interface dialog_stack_top_type extends Readable<$dialog_stack_top_type> {}
 export interface dialog_stack_top_b_type extends B<dialog_stack_top_type> {}
