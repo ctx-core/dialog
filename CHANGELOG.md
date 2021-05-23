@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 11.4.0
+
+### Minor Changes
+
+- - dialog_Ctx
+
 ## 11.3.7
 
 ### Patch Changes
