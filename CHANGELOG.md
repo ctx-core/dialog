@@ -1,5 +1,16 @@
 # @ctx-core/dialog
 
+## 11.5.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.4.1
+  - @ctx-core/function@17.10.1
+  - @ctx-core/object@18.1.1
+  - @ctx-core/store@24.9.1
+
 ## 11.5.0
 
 ### Minor Changes
