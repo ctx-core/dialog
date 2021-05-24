@@ -1,5 +1,19 @@
 # @ctx-core/dialog
 
+## 11.5.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.4.0
+  - @ctx-core/function@17.10.0
+  - @ctx-core/object@18.1.0
+  - @ctx-core/store@24.9.0
+
 ## 11.4.3
 
 ### Patch Changes
