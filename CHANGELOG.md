@@ -1,5 +1,19 @@
 # @ctx-core/dialog
 
+## 11.6.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.5.0
+  - @ctx-core/function@17.11.0
+  - @ctx-core/object@18.2.0
+  - @ctx-core/store@24.10.0
+
 ## 11.5.2
 
 ### Patch Changes
