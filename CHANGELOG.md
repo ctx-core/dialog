@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 11.6.4
+
+### Patch Changes
+
+- fix: \_h_b_h: return value
+
 ## 11.6.3
 
 ### Patch Changes
