@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 11.6.3
+
+### Patch Changes
+
+- - dialog_b_h_b
+
 ## 11.6.2
 
 ### Patch Changes
