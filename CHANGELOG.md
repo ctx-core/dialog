@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 11.6.5
+
+### Patch Changes
+
+- update dependencies
+
 ## 11.6.4
 
 ### Patch Changes
