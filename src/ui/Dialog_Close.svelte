@@ -1,4 +1,4 @@
-< script>
+<script>
 export let tabindex = '0'
 </script>
 
