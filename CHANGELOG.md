@@ -1,5 +1,14 @@
 # @ctx-core/dialog
 
+## 12.0.5
+
+### Patch Changes
+
+- _b->be_
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.0.4
+  - @ctx-core/object@19.0.2
+
 ## 12.0.4
 
 ### Patch Changes
@@ -898,7 +907,7 @@
 
 ### Minor Changes
 
-- \_b types
+- \be\_ types
 
 ## 11.1.8
 
@@ -1343,7 +1352,7 @@
 
 ### Minor Changes
 
-- \_b: required ctx argument & generic type updates
+- \be\_: required ctx argument & generic type updates
 - Extract separate modules
 
 ### Patch Changes
