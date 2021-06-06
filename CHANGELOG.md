@@ -1,5 +1,16 @@
 # @ctx-core/dialog
 
+## 12.0.22
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.2.6
+  - @ctx-core/function@18.1.2
+  - @ctx-core/object@19.1.2
+  - @ctx-core/store@25.1.12
+
 ## 12.0.21
 
 ### Patch Changes
