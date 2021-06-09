@@ -1,10 +1,10 @@
-import { be_ } from '@ctx-core/object'
+import { B, be_ } from '@ctx-core/object'
 import { _last } from '@ctx-core/array'
 import { derived$, Readable$ } from '@ctx-core/store'
 import type { dialog_Ctx } from './dialog_Ctx'
 import { dialog_stack$_b } from './dialog_stack$_b'
 const key = 'dialog_stack_top$'
-export const dialog_stack_top$_b = be_<dialog_Ctx, typeof key>(key, ctx=>
+export const dialog_stack_top$_b:B<dialog_Ctx, typeof key> = be_(key, ctx=>
 	derived$(
 		dialog_stack$_b(ctx), _last) as dialog_stack_top$_T
 )

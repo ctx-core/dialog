@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 12.0.31
+
+### Patch Changes
+
+- fix: B: inferred type issue
+
 ## 12.0.30
 
 ### Patch Changes
