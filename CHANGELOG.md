@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 14.0.1
+
+### Patch Changes
+
+- remove npm run symlink
+
 ## 14.0.0
 
 ### Major Changes
