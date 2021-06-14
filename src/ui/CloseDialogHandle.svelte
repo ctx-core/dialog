@@ -4,13 +4,13 @@ export let tabindex = '0'
 
 <a
 	href="."
-	class="close Dialog_Close {$$props.class||''}"
+	class="close CloseDialogHandle {$$props.class||''}"
 	tabindex="{tabindex || '0'}"
 	on:click|preventDefault
 ><slot>&#10006;</slot></a>
 
 <style type="text/scss">
-:global(.Dialog_Close) {
+:global(.CloseDialogHandle) {
 	text-decoration: none;
 }
 </style>

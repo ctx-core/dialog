@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 13.0.0
+
+### Major Changes
+
+- Dialog_Close->CloseDialogHandle
+
 ## 12.0.34
 
 ### Patch Changes
