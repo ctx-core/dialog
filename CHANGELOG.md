@@ -1,5 +1,16 @@
 # @ctx-core/dialog
 
+## 14.0.11
+
+### Patch Changes
+
+- fix: deploying \*.js files
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.8
+  - @ctx-core/function@19.1.6
+  - @ctx-core/object@20.0.7
+  - @ctx-core/store@26.0.8
+
 ## 14.0.10
 
 ### Patch Changes
