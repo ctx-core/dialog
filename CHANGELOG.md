@@ -1,5 +1,16 @@
 # @ctx-core/dialog
 
+## 14.0.20
+
+### Patch Changes
+
+- dist directory
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.16
+  - @ctx-core/function@19.1.10
+  - @ctx-core/object@20.2.2
+  - @ctx-core/store@26.0.17
+
 ## 14.0.19
 
 ### Patch Changes
