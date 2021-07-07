@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 14.0.32
+
+### Patch Changes
+
+- update dependencies
+
 ## 14.0.31
 
 ### Patch Changes
