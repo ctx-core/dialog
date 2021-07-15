@@ -1,5 +1,5 @@
 export * from './dialog_Ctx.js'
-export * from './dialog_ctx_I.generated'
+export * from './dialog_ctx_I.generated.js'
 export * from './close_dialog_stack_top_b.js'
 export * from './dialog_stack$_b.js'
 export * from './dialog_stack_top$_b.js'

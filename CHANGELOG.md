@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 15.0.3
+
+### Patch Changes
+
+- import: + .js extention
+
 ## 15.0.2
 
 ### Patch Changes
