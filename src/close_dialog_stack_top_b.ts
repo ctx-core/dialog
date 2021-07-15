@@ -1,7 +1,7 @@
 import { B, be_ } from '@ctx-core/object'
 import { get } from '@ctx-core/store'
 import { dialog_stack_top$_b } from './dialog_stack_top$_b.js'
-import type { dialog_Ctx } from './dialog_Ctx'
+import type { dialog_Ctx } from './dialog_Ctx.js'
 const key = 'close_dialog_stack_top'
 export const close_dialog_stack_top_b:B<dialog_Ctx, typeof key> = be_(key, ctx=>{
 		return close_dialog_stack_top as close_dialog_stack_top_T

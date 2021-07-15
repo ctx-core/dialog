@@ -2,7 +2,7 @@ import { B, be_, assign } from '@ctx-core/object'
 import { each, remove } from '@ctx-core/array'
 import { Writable$, writable$ } from '@ctx-core/store'
 import type { dialog_I } from './dialog_stack_top$_b.js'
-import type { dialog_Ctx } from './dialog_Ctx'
+import type { dialog_Ctx } from './dialog_Ctx.js'
 const key = 'dialog_stack$'
 export const dialog_stack$_b:B<dialog_Ctx, typeof key> = be_(key, ()=>{
 	const dialog_stack$ = writable$([] as dialog_stack_T) as dialog_stack$_T
