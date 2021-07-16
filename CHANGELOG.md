@@ -1,5 +1,16 @@
 # @ctx-core/dialog
 
+## 15.0.10
+
+### Patch Changes
+
+- "main": "./dist/index.cjs"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.8
+  - @ctx-core/function@20.0.7
+  - @ctx-core/object@21.0.7
+  - @ctx-core/store@27.0.6
+
 ## 15.0.9
 
 ### Patch Changes
