@@ -1,5 +1,16 @@
 # @ctx-core/dialog
 
+## 15.0.5
+
+### Patch Changes
+
+- support cjs & esm: + "exports"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.3
+  - @ctx-core/function@20.0.3
+  - @ctx-core/object@21.0.3
+  - @ctx-core/store@27.0.3
+
 ## 15.0.4
 
 ### Patch Changes
