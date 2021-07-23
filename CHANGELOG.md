@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 15.0.22
+
+### Patch Changes
+
+- fix: \*\_ctx_I.generated
+
 ## 15.0.21
 
 ### Patch Changes
