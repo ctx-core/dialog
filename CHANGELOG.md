@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 15.0.53
+
+### Patch Changes
+
+- update dependencies
+
 ## 15.0.52
 
 ### Patch Changes
