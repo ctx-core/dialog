@@ -1,5 +1,13 @@
 # @ctx-core/dialog
 
+## 15.0.74
+
+### Patch Changes
+
+- svelte: 3.43.0 -> 3.43.1
+- Updated dependencies [undefined]
+  - @ctx-core/store@27.0.33
+
 ## 15.0.73
 
 ### Patch Changes
