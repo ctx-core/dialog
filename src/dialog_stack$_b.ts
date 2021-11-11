@@ -12,17 +12,17 @@ export const dialog_stack$_b:B<dialog_Ctx, typeof key> = be_(key, ()=>{
 		close_dialog_stack,
 	}) as dialog_stack$_T
 	function add_dialog_stack_component(dialog:dialog_I) {
-		const dialog_stack = dialog_stack$._.slice(0) as dialog_stack_T
+		const dialog_stack = dialog_stack$.$.slice(0) as dialog_stack_T
 		dialog_stack.push(dialog)
-		dialog_stack$._ = dialog_stack
+		dialog_stack$.$ = dialog_stack
 	}
 	function remove_dialog_stack_component(dialog:dialog_I) {
-		const dialog_stack = dialog_stack$._.slice(0) as dialog_stack_T
+		const dialog_stack = dialog_stack$.$.slice(0) as dialog_stack_T
 		remove(dialog_stack, dialog)
-		dialog_stack$._ = dialog_stack
+		dialog_stack$.$ = dialog_stack
 	}
 	function close_dialog_stack(event?:Event) {
-		const dialog_stack = dialog_stack$._
+		const dialog_stack = dialog_stack$.$
 		each<dialog_I>(dialog_stack, dialog=>dialog.close(event))
 	}
 })
