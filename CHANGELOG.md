@@ -1,5 +1,16 @@
 # @ctx-core/dialog
 
+## 15.0.84
+
+### Patch Changes
+
+- @swc/core: ^1.2.116 -> ^1.2.117
+- Updated dependencies
+  - @ctx-core/array@23.0.29
+  - @ctx-core/function@20.2.9
+  - @ctx-core/object@21.0.28
+  - @ctx-core/store@27.0.42
+
 ## 15.0.83
 
 ### Patch Changes
