@@ -1,5 +1,14 @@
 # @ctx-core/dialog
 
+## 15.0.87
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/array@23.0.32
+  - @ctx-core/store@27.0.45
+
 ## 15.0.86
 
 ### Patch Changes
