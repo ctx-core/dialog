@@ -1,5 +1,20 @@
 # @ctx-core/dialog
 
+## 16.0.0
+
+### Major Changes
+
+- \*\_b: ctx is a map: @ctx-core/object: 22.0.0
+
+### Patch Changes
+
+- package.json: - module
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/object@22.0.0
+  - @ctx-core/array@23.0.33
+  - @ctx-core/store@27.0.46
+
 ## 15.0.88
 
 ### Patch Changes
