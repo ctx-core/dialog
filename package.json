@@ -35,10 +35,10 @@
 		"@ctx-core/array": "workspace:^23.0.33",
 		"@ctx-core/function": "workspace:^20.2.12",
 		"@ctx-core/object": "workspace:^22.0.0",
-		"@ctx-core/store": "workspace:^27.0.46"
+		"@ctx-core/store": "workspace:^27.0.47"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.85",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.86",
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.120",
 		"typescript": "next"
