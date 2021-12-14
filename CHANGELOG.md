@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 17.0.0
+
+### Major Changes
+
+- extracted @ctx-core/dialog-ui-svelte
+
 ## 16.0.0
 
 ### Major Changes
