@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dialog",
-	"version": "17.0.0",
+	"version": "17.0.1",
 	"description": "ctx-core dialog",
 	"keywords": [
 		"ctx-core",
@@ -32,13 +32,13 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.33",
-		"@ctx-core/function": "workspace:^20.2.12",
-		"@ctx-core/object": "workspace:^22.0.0",
-		"@ctx-core/store": "workspace:^27.0.47"
+		"@ctx-core/array": "workspace:^23.0.34",
+		"@ctx-core/function": "workspace:^20.2.13",
+		"@ctx-core/object": "workspace:^22.0.1",
+		"@ctx-core/store": "workspace:^27.0.48"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.87",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.88",
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.120",
 		"rimraf": "^3.0.2",
@@ -47,5 +47,6 @@
 	"publishConfig": {
 		"access": "public",
 		"cache": "~/.npm"
-	}
+	},
+	"svelte": "./dist/index.js"
 }
