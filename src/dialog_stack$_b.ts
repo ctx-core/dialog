@@ -1,10 +1,10 @@
 import { each, remove } from '@ctx-core/array'
 import { B, be_, assign } from '@ctx-core/object'
-import { Writable$, writable$ } from '@ctx-core/store'
+import { WritableAtom$, atom$ } from '@ctx-core/nanostores'
 import type { dialog_I } from './dialog_stack_top$_b.js'
 const key = 'dialog_stack$'
 export const dialog_stack$_b:B<dialog_stack$_T> = be_(key, ()=>{
-	const dialog_stack$ = writable$([] as dialog_stack_T) as dialog_stack$_T
+	const dialog_stack$ = atom$([] as dialog_stack_T) as dialog_stack$_T
 	return assign(dialog_stack$, {
 		add_dialog_stack_component,
 		remove_dialog_stack_component,
@@ -26,7 +26,7 @@ export const dialog_stack$_b:B<dialog_stack$_T> = be_(key, ()=>{
 	}
 })
 export type dialog_stack_T = dialog_I[]
-export interface dialog_stack$_T extends Writable$<dialog_stack_T> {
+export interface dialog_stack$_T extends WritableAtom$<dialog_stack_T> {
 	add_dialog_stack_component:(component:object)=>void
 	remove_dialog_stack_component:(component:object)=>void
 	close_dialog_stack:(event?:Event)=>void
