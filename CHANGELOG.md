@@ -1,5 +1,14 @@
 # @ctx-core/dialog
 
+## 18.0.6
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- Updated dependencies
+  - @ctx-core/function@20.2.21
+  - @ctx-core/nanostores@0.3.1
+
 ## 18.0.5
 
 ### Patch Changes
