@@ -1,5 +1,16 @@
 # @ctx-core/dialog
 
+## 18.0.8
+
+### Patch Changes
+
+- @swc/core: ^1.2.125 -> ^1.2.127
+- Updated dependencies
+  - @ctx-core/array@23.1.3
+  - @ctx-core/function@20.2.24
+  - @ctx-core/nanostores@0.3.3
+  - @ctx-core/object@22.0.11
+
 ## 18.0.7
 
 ### Patch Changes
