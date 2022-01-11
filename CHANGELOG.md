@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 18.0.12
+
+### Patch Changes
+
+- update dependencies
+
 ## 18.0.11
 
 ### Patch Changes
