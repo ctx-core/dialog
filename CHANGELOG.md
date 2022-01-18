@@ -1,5 +1,16 @@
 # @ctx-core/dialog
 
+## 18.0.15
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@24.0.0
+  - @ctx-core/function@20.3.0
+
 ## 18.0.14
 
 ### Patch Changes
