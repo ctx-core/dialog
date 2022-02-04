@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 20.0.0
+
+### Major Changes
+
+- add*dialog_stack_component,remove_dialog_stack_component,close_dialog_stack: extracted from dialog_stack\$*
+
 ## 19.0.2
 
 ### Patch Changes
