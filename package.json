@@ -36,7 +36,7 @@
 	"dependencies": {
 		"@ctx-core/array": "*",
 		"@ctx-core/function": "*",
-		"@ctx-core/nanostores": "^0.7.3",
+		"@ctx-core/nanostores": "^0.7.4",
 		"@ctx-core/object": "*"
 	},
 	"devDependencies": {
