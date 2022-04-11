@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 20.0.13
+
+### Patch Changes
+
+- update dependencies
+
 ## 20.0.12
 
 ### Patch Changes
