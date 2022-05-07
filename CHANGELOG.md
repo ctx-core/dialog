@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 20.0.21
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^1.0.17 -> ^1.0.18
+
 ## 20.0.20
 
 ### Patch Changes
