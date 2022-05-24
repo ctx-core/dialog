@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 20.0.25
+
+### Patch Changes
+
+- @ctx-core/array: 26.4.2
+
 ## 20.0.24
 
 ### Patch Changes
