@@ -1,9 +1,9 @@
 import { remove } from '@ctx-core/array'
-import { atom$ } from '@ctx-core/nanostores'
+import { atom_ } from '@ctx-core/nanostores'
 import { be_ } from '@ctx-core/object'
 const key = 'dialog_stack$'
 export const dialog_stack$_ = be_(key, ()=>
-	atom$([]))
+	atom_([]))
 export function add_dialog_stack_component(ctx, dialog) {
 	const dialog_stack = dialog_stack$_(ctx).$.slice(0)
 	dialog_stack.push(dialog)
