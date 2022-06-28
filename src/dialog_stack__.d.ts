@@ -1,4 +1,4 @@
-import { WritableAtom_ } from '@ctx-core/nanostores'
+import { type WritableAtom_ } from '@ctx-core/nanostores'
 import { B, Ctx } from '@ctx-core/object'
 import type { dialog_I } from './dialog_stack_top__.js'
 export declare const dialog_stack__:B<WritableAtom_<dialog_stack_T>>
