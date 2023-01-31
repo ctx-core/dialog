@@ -1,5 +1,16 @@
 # @ctx-core/dialog
 
+## 20.1.29
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/array@26.8.13
+  - @ctx-core/function@21.6.1
+  - @ctx-core/nanostores@2.2.17
+  - @ctx-core/object@24.1.1
+
 ## 20.1.28
 
 ### Patch Changes
