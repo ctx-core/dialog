@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 20.2.0
+
+### Minor Changes
+
+- extract _.js & _.d.ts into directories
+
 ## 20.1.38
 
 ### Patch Changes
