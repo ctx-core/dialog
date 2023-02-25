@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dialog",
-	"version": "20.2.13",
+	"version": "20.2.14",
 	"description": "ctx-core dialog",
 	"keywords": [
 		"ctx-core",
@@ -32,10 +32,10 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.11.8",
+		"@ctx-core/array": "^26.11.9",
 		"@ctx-core/function": "^21.8.0",
-		"@ctx-core/nanostores": "^2.2.31",
-		"@ctx-core/object": "^25.1.0"
+		"@ctx-core/nanostores": "^2.2.32",
+		"@ctx-core/object": "^25.2.0"
 	},
 	"devDependencies": {
 		"c8": "^7.13.0",
