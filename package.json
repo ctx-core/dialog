@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dialog",
-	"version": "20.2.37",
+	"version": "20.2.38",
 	"description": "ctx-core dialog",
 	"keywords": [
 		"ctx-core",
@@ -34,7 +34,7 @@
 	"dependencies": {
 		"@ctx-core/array": "^26.12.9",
 		"@ctx-core/function": "^21.14.0",
-		"@ctx-core/nanostores": "^3.1.18",
+		"@ctx-core/nanostores": "^3.1.19",
 		"@ctx-core/object": "^27.4.1"
 	},
 	"devDependencies": {
