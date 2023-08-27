@@ -1,5 +1,18 @@
 # @ctx-core/dialog
 
+## 20.3.0
+
+### Minor Changes
+
+- dialog*stack\_\_top$*: aliased by dialog_stack**top**
+- - dialog*stack\_\_top*
+- dialog_stack:
+
+      + dialog_stack_
+      + dialog_stack__set
+
+- dialog*stack$*: aliased by dialog_stack\_\_
+
 ## 20.2.108
 
 ### Patch Changes
