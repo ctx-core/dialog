@@ -7,7 +7,7 @@ export const [
 	dialog_stack$_,
 	dialog_stack_,
 	dialog_stack__set
-] = val__be_atom_triple_(()=>[])
+] = val__be_atom_triple_('dialog_stack', ()=>[])
 export { dialog_stack$_ as dialog_stack__ }
 /**
  * @param ctx{Ctx}
