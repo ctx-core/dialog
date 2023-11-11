@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dialog",
-	"version": "20.3.19",
+	"version": "20.4.0",
 	"description": "ctx-core dialog",
 	"keywords": [
 		"ctx-core",
@@ -17,9 +17,15 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.d.ts",
+	"files": [
+		"*.d.ts",
+		"./_types",
+		"./dialog_stack",
+		"./dialog_stack__top"
+	],
+	"types": "./index.d.ts",
 	"exports": {
-		".": "./src/index.js",
+		".": "./index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
@@ -32,10 +38,10 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.15.9",
-		"@ctx-core/function": "^21.20.2",
-		"@ctx-core/nanostores": "^7.0.8",
-		"@ctx-core/object": "^30.0.0"
+		"@ctx-core/array": "^27.0.0",
+		"@ctx-core/function": "^21.21.0",
+		"@ctx-core/nanostores": "^7.1.0",
+		"@ctx-core/object": "^30.1.0"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",
@@ -48,6 +54,5 @@
 		"access": "public",
 		"cache": "~/.npm"
 	},
-	"svelte": "./src/index.js",
 	"sideEffects": false
 }

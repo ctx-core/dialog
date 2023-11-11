@@ -1,7 +1,7 @@
 import { remove } from '@ctx-core/array'
 import { val__be_atom_triple_ } from '@ctx-core/nanostores'
 /** @typedef {import('@ctx-core/object').Ctx}Ctx */
-/** @typedef {import('../_types').dialog_T}dialog_T */
+/** @typedef {import('../_types/index.d.ts').dialog_T}dialog_T */
 /** @type {typeof import('./index.d.ts').dialog_stack__} */
 export const [
 	dialog_stack$_,
