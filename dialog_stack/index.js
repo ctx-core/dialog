@@ -1,13 +1,15 @@
 import { remove } from '@ctx-core/array'
-import { val__be_atom_triple_ } from '@ctx-core/nanostores'
-/** @typedef {import('@ctx-core/object').Ctx}Ctx */
-/** @typedef {import('../_types/index.d.ts').dialog_T}dialog_T */
+import { be_atom_triple_ } from '@ctx-core/nanostores'
+/** @typedef {import('@ctx-core/nanostores').be_atom_triple_T} */
+/** @typedef {import('@ctx-core/object').Ctx} */
+/** @typedef {import('../_types/index.d.ts').dialog_T} */
 /** @type {typeof import('./index.d.ts').dialog_stack__} */
 export const [
 	dialog_stack$_,
 	dialog_stack_,
 	dialog_stack__set
-] = val__be_atom_triple_('dialog_stack', ()=>[])
+] = /** @type {be_atom_triple_T<dialog_T[]>} */be_atom_triple_(()=>[])
+	.config({ id: 'dialog_stack' })
 export { dialog_stack$_ as dialog_stack__ }
 /**
  * @param ctx{Ctx}
