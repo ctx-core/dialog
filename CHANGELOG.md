@@ -1,5 +1,13 @@
 # @ctx-core/dialog
 
+## 20.4.19
+
+### Patch Changes
+
+- fix: be*computed_pair* instances
+- Updated dependencies
+  - @ctx-core/nanostores@9.0.1
+
 ## 20.4.18
 
 ### Patch Changes

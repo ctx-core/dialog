@@ -1,11 +1,12 @@
 import { last_ } from '@ctx-core/array'
 import { be_computed_pair_ } from '@ctx-core/nanostores'
 import { dialog_stack_ } from '../dialog_stack/index.js'
+/** @typedef {import('@ctx-core/object').be_atom_triple_T} */
 /** @type {typeof import('./index.d.ts').dialog_stack__top__} */
 export const [
 	dialog_stack__top$_,
 	dialog_stack__top_,
-] = be_computed_pair_(ctx=>
+] = /** @type {be_computed_pair_T<dialog_stack_top_T>} */be_computed_pair_(ctx=>
 	last_(dialog_stack_(ctx)))
 export {
 	dialog_stack__top$_ as dialog_stack_top__,
