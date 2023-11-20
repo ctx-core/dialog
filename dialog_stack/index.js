@@ -8,8 +8,9 @@ export const [
 	dialog_stack$_,
 	dialog_stack_,
 	dialog_stack__set
-] = /** @type {be_atom_triple_T<dialog_T[]>} */be_atom_triple_(()=>[])
-	.config({ id: 'dialog_stack' })
+] = /** @type {be_atom_triple_T<dialog_T[]>} */be_atom_triple_(()=>
+	[],
+{ id: 'dialog_stack' })
 export { dialog_stack$_ as dialog_stack__ }
 /**
  * @param ctx{Ctx}
