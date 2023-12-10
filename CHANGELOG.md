@@ -1,5 +1,16 @@
 # @ctx-core/dialog
 
+## 20.4.44
+
+### Patch Changes
+
+- @ctx-core/array: ^27.1.0 -> ^27.1.1
+- @ctx-core/function: ^21.23.0 -> ^21.23.1
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/nanostores@9.0.26
+  - @ctx-core/object@31.1.21
+
 ## 20.4.43
 
 ### Patch Changes
