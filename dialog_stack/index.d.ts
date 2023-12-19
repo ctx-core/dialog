@@ -1,5 +1,5 @@
 import type { be_atom_triple_T } from '@ctx-core/nanostores'
-import type { Ctx } from '@ctx-core/object'
+import type { Ctx } from 'ctx-core/be'
 import type { dialog_T } from '../_types/index.js'
 export declare const [
 	dialog_stack$_,

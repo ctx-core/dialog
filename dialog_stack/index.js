@@ -1,9 +1,11 @@
-import { remove } from '@ctx-core/array'
+/// <reference types="ctx-core" />
+/// <reference types="../types/index.d.ts" />
+/// <reference types="./index.d.ts" />
 import { be_atom_triple_ } from '@ctx-core/nanostores'
+import { remove } from 'ctx-core/array'
 /** @typedef {import('@ctx-core/nanostores').be_atom_triple_T} */
-/** @typedef {import('@ctx-core/object').Ctx} */
-/** @typedef {import('../_types/index.d.ts').dialog_T} */
-/** @type {typeof import('./index.d.ts').dialog_stack__} */
+/** @typedef {Ctx} */
+/** @typedef {dialog_T} */
 export const [
 	dialog_stack$_,
 	dialog_stack_,
@@ -17,7 +19,7 @@ export { dialog_stack$_ as dialog_stack__ }
  * @param dialog{dialog_T}
  */
 export function dialog_stack__component__add(ctx, dialog) {
-	const dialog_stack = dialog_stack__(ctx).$.slice(0)
+	const dialog_stack = dialog_stack_(ctx).slice(0)
 	dialog_stack.push(dialog)
 	dialog_stack__set(ctx, dialog_stack)
 }
@@ -29,7 +31,7 @@ export {
  * @param dialog{dialog_T}
  */
 export function dialog_stack__component__remove(ctx, dialog) {
-	const dialog_stack = dialog_stack__(ctx).$.slice(0)
+	const dialog_stack = dialog_stack_(ctx).slice(0)
 	remove(dialog_stack, dialog)
 	dialog_stack__set(ctx, dialog_stack)
 }

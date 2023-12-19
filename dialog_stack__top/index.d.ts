@@ -1,5 +1,5 @@
 import type { be_computed_pair_T } from '@ctx-core/nanostores'
-import type { Ctx } from '@ctx-core/object'
+import type { Ctx } from 'ctx-core/be'
 import type { dialog_stack_top_T, dialog_T } from '../_types/index.js'
 export declare const [
 	dialog_stack__top$_,

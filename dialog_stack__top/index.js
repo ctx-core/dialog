@@ -1,8 +1,8 @@
-import { last_ } from '@ctx-core/array'
+/// <reference types="ctx-core" />
+/// <reference types="./index.d.ts" />
 import { be_computed_pair_ } from '@ctx-core/nanostores'
+import { last_ } from 'ctx-core/array'
 import { dialog_stack$_ } from '../dialog_stack/index.js'
-/** @typedef {import('@ctx-core/object').be_atom_triple_T} */
-/** @type {typeof import('./index.d.ts').dialog_stack__top__} */
 export const [
 	dialog_stack__top$_,
 	dialog_stack__top_,
