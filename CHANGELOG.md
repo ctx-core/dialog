@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 21.0.0
+
+### Major Changes
+
+- rmemo instead of @ctx-core/nanostores
+
 ## 20.4.72
 
 ### Patch Changes

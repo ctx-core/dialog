@@ -1,18 +1,18 @@
 /// <reference types="ctx-core" />
 /// <reference types="../types/index.d.ts" />
 /// <reference types="./index.d.ts" />
-import { be_atom_triple_ } from '@ctx-core/nanostores'
 import { remove } from 'ctx-core/array'
-/** @typedef {import('@ctx-core/nanostores').be_atom_triple_T} */
+import { be_sig_triple_ } from 'ctx-core/rmemo'
 /** @typedef {Ctx} */
 /** @typedef {dialog_T} */
 export const [
 	dialog_stack$_,
 	dialog_stack_,
 	dialog_stack__set
-] = /** @type {be_atom_triple_T<dialog_T[]>} */be_atom_triple_(()=>
-	[],
-{ id: 'dialog_stack' })
+] = /** @type {be_sig_triple_T<dialog_T[]>} */
+	be_sig_triple_(()=>
+		[],
+	{ id: 'dialog_stack' })
 export { dialog_stack$_ as dialog_stack__ }
 /**
  * @param ctx{Ctx}

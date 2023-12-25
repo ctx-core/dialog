@@ -1,10 +1,10 @@
-import type { be_computed_pair_T } from '@ctx-core/nanostores'
 import type { Ctx } from 'ctx-core/be'
+import type { be_memo_pair_T } from 'ctx-core/rmemo'
 import type { dialog_stack_top_T, dialog_T } from '../_types/index.js'
 export declare const [
 	dialog_stack__top$_,
 	dialog_stack__top_,
-]:be_computed_pair_T<dialog_stack_top_T>
+]:be_memo_pair_T<dialog_stack_top_T>
 export {
 	dialog_stack__top$_ as dialog_stack_top__,
 	dialog_stack__top$_ as dialog_stack__top__,
