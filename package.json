@@ -21,9 +21,9 @@
 		"*.d.ts",
 		"*.js",
 		"*.json",
-		"./_types",
-		"./dialog_stack",
-		"./dialog_stack__top"
+		"_types",
+		"dialog_stack",
+		"dialog_stack__top"
 	],
 	"types": "./index.d.ts",
 	"exports": {
