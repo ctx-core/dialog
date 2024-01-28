@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dialog",
-	"version": "21.0.49",
+	"version": "21.0.50",
 	"description": "ctx-core dialog",
 	"keywords": [
 		"ctx-core",
@@ -41,7 +41,7 @@
 		"test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^5.32.0"
+		"ctx-core": "^5.32.1"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",
