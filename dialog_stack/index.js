@@ -3,7 +3,7 @@
 /// <reference types="./index.d.ts" />
 import { remove } from 'ctx-core/array'
 import { be_sig_triple_ } from 'ctx-core/rmemo'
-/** @typedef {Ctx} */
+/** @typedef {ctx_T} */
 /** @typedef {dialog_T} */
 export const [
 	dialog_stack$_,
@@ -15,8 +15,8 @@ export const [
 	{ id: 'dialog_stack' })
 export { dialog_stack$_ as dialog_stack__ }
 /**
- * @param ctx{Ctx}
- * @param dialog{dialog_T}
+ * @params {ctx_T}ctx
+ * @param {dialog_T}dialog
  */
 export function dialog_stack__component__add(ctx, dialog) {
 	const dialog_stack = dialog_stack_(ctx).slice(0)
@@ -27,8 +27,8 @@ export {
 	dialog_stack__component__add as add_dialog_stack_component,
 }
 /**
- * @param ctx{Ctx}
- * @param dialog{dialog_T}
+ * @params {ctx_T}ctx
+ * @param {dialog_T}dialog
  */
 export function dialog_stack__component__remove(ctx, dialog) {
 	const dialog_stack = dialog_stack_(ctx).slice(0)
@@ -39,8 +39,8 @@ export {
 	dialog_stack__component__remove as remove_dialog_stack_component,
 }
 /**
- * @param ctx{Ctx}
- * @param event{Event}
+ * @params {ctx_T}ctx
+ * @param {Event}event
  */
 export function dialog_stack__close(ctx, event) {
 	const dialog_stack = dialog_stack_(ctx)
