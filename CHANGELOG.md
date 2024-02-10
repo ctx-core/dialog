@@ -1,5 +1,13 @@
 # @ctx-core/dialog
 
+## 21.0.68
+
+### Patch Changes
+
+- tsx: ^4.7.0 -> ^4.7.1
+- Updated dependencies
+  - ctx-core@6.1.2
+
 ## 21.0.67
 
 ### Patch Changes
