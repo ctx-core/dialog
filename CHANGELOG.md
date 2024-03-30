@@ -1,5 +1,11 @@
 # @ctx-core/dialog
 
+## 21.0.94
+
+### Patch Changes
+
+- ctx-core: ^6.7.0 -> ^6.7.1
+
 ## 21.0.93
 
 ### Patch Changes
