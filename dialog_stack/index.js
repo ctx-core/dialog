@@ -2,7 +2,7 @@
 /// <reference types="../types/index.d.ts" />
 /// <reference types="./index.d.ts" />
 import { remove } from 'ctx-core/array'
-import { be_sig_triple_ } from 'ctx-core/rmemo'
+import { id_be_sig_triple_ } from 'ctx-core/rmemo'
 /** @typedef {ctx_T} */
 /** @typedef {dialog_T} */
 export const [
@@ -10,9 +10,9 @@ export const [
 	dialog_stack_,
 	dialog_stack__set
 ] = /** @type {be_sig_triple_T<dialog_T[]>} */
-	be_sig_triple_(()=>
-		[],
-	{ id: 'dialog_stack' })
+	id_be_sig_triple_(
+		'dialog_stack',
+		()=>[])
 export { dialog_stack$_ as dialog_stack__ }
 /**
  * @params {ctx_T}ctx
